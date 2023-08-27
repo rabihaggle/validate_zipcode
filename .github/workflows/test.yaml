@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -p '01_test_*.py'
+        python -m unittest discover -s /home/runner/work/validate_zipcode/validate_zipcode -p '01_test_*.py'
